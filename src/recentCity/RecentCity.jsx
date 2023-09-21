@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useEffect, useState } from 'react'
 import './App.css'
 import Header from '../header/Header';
-import Footer from '../Footer/Footer';
+import Footer from '../footer/Footer';
 import { useLocation } from 'react-router-dom';
 
 const RecentCity = () => {
