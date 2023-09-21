@@ -2,7 +2,7 @@ import axios from 'axios'
 import React, { useEffect, useState } from 'react'
 import './style.css'
 import Header from '../header/Header'
-import Footer from '../Footer/Footer'
+import Footer from '../footer/Footer'
 const CurrentWeather = () => {
     const [latlon, setLatlon] = useState({ lat: "", lon: "" })
     const [data, setData] = useState([])
