@@ -1,6 +1,6 @@
 import React from 'react'
 import Login from './login/Login'
-import Footer from './Footer/Footer'
+import Footer from './footer/Footer'
 
 const Home = () => {
   return (
