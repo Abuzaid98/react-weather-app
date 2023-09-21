@@ -1,0 +1,20 @@
+.logContainer{
+    background: linear-gradient(135deg, #0d6efd , #00feba , #5b548a);
+    overflow: auto;
+    min-height: 80vh;
+}
+
+.mainHeading{
+    color: #fff;
+    font-weight: 900;
+    font-size: 3rem;
+}
+
+.logInForm{
+    color: #fff;
+    max-width: 400px;
+    margin: 100px auto;
+    background: linear-gradient(135deg, #0d6efd , #00feba , #5b548a);
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgb(120, 120, 120);
+}

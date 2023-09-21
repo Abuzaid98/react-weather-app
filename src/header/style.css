@@ -1,0 +1,54 @@
+header {
+    background-color: black;
+    color: white;
+}
+
+.header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.left {
+    display: flex;
+    align-items: baseline;
+}
+
+.left h1 {
+    color: #fff;
+}
+
+.left a {
+    text-decoration: none;
+}
+
+.right p,
+.left p {
+    font-size: 1.6rem;
+    margin-left: 25px;
+    color: rgb(230, 1, 1);
+}
+
+@media screen and (max-width:426px) {
+    .name, h1 {
+        margin: 0px!important;
+    }
+
+    .right p,
+    .left p {
+        font-size: 1.2rem;
+    }
+
+    .left {
+        flex-flow: row wrap;
+    }
+
+    .left p {
+        margin: 0;
+    }
+
+    .right h1 img {
+        width: 30px;
+    }
+}

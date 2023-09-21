@@ -1,0 +1,17 @@
+.cWeather {
+    min-height: 70vh;
+    background-image: url(../public/weather-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.cWeather .box {
+    background: linear-gradient(135deg, #0d6efd, #00feba, #5b548a);
+    padding: 10px;
+    margin: 20px 0;
+    box-shadow: 0 0 10px #00000069;
+    text-align: center;
+    border-radius: 10px;
+}
