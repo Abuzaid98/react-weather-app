@@ -41,9 +41,9 @@ const Header = ({ username, userimage }) => {
                 <div className="container">
                     <div className="header">
                         <div className="left">
-                            <Link to='/recentCity'>
+{/*                             <Link to='/recentCity'> */}
                                 <h1 >Weather App</h1>
-                            </Link>
+{/*                             </Link> */}
                             <Link to='/CurrentWeather'>
                                 <p> <FontAwesomeIcon icon={faLocation} /> Current Location </p>
                             </Link>
